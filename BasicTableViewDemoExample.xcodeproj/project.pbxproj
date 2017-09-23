@@ -20,6 +20,7 @@
 		16DDAA911F76CAF3003AFDF2 /* Nepal.png in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA8B1F76CAF3003AFDF2 /* Nepal.png */; };
 		16DDAA921F76CAF3003AFDF2 /* South Africa.png in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA8C1F76CAF3003AFDF2 /* South Africa.png */; };
 		16DDAA931F76CAF3003AFDF2 /* USA.png in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA8D1F76CAF3003AFDF2 /* USA.png */; };
+		16F0F8B91F76CCF700D31463 /* UITableView Basics - Swift 3.key in Resources */ = {isa = PBXBuildFile; fileRef = 16F0F8B81F76CCF700D31463 /* UITableView Basics - Swift 3.key */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		16DDAA8B1F76CAF3003AFDF2 /* Nepal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nepal.png; sourceTree = "<group>"; };
 		16DDAA8C1F76CAF3003AFDF2 /* South Africa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "South Africa.png"; sourceTree = "<group>"; };
 		16DDAA8D1F76CAF3003AFDF2 /* USA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USA.png; sourceTree = "<group>"; };
+		16F0F8B81F76CCF700D31463 /* UITableView Basics - Swift 3.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UITableView Basics - Swift 3.key"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		16DDAA6C1F76CA8B003AFDF2 /* BasicTableViewDemoExample */ = {
 			isa = PBXGroup;
 			children = (
+				16F0F8B81F76CCF700D31463 /* UITableView Basics - Swift 3.key */,
 				16DDAA871F76CAF3003AFDF2 /* Nations */,
 				16DDAA851F76CAD4003AFDF2 /* Main.storyboard */,
 				16DDAA6D1F76CA8B003AFDF2 /* AppDelegate.swift */,
@@ -161,6 +164,7 @@
 				16DDAA781F76CA8B003AFDF2 /* LaunchScreen.storyboard in Resources */,
 				16DDAA8E1F76CAF3003AFDF2 /* Australia.png in Resources */,
 				16DDAA921F76CAF3003AFDF2 /* South Africa.png in Resources */,
+				16F0F8B91F76CCF700D31463 /* UITableView Basics - Swift 3.key in Resources */,
 				16DDAA751F76CA8B003AFDF2 /* Assets.xcassets in Resources */,
 				16DDAA901F76CAF3003AFDF2 /* Germany.png in Resources */,
 				16DDAA911F76CAF3003AFDF2 /* Nepal.png in Resources */,
@@ -331,6 +335,7 @@
 				16DDAA7E1F76CA8B003AFDF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
