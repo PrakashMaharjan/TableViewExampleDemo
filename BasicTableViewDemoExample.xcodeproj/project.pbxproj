@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		16DDAA6E1F76CA8B003AFDF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDAA6D1F76CA8B003AFDF2 /* AppDelegate.swift */; };
-		16DDAA701F76CA8B003AFDF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDAA6F1F76CA8B003AFDF2 /* ViewController.swift */; };
-		16DDAA731F76CA8B003AFDF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA711F76CA8B003AFDF2 /* Main.storyboard */; };
 		16DDAA751F76CA8B003AFDF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA741F76CA8B003AFDF2 /* Assets.xcassets */; };
 		16DDAA781F76CA8B003AFDF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA761F76CA8B003AFDF2 /* LaunchScreen.storyboard */; };
+		16DDAA811F76CA9E003AFDF2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDAA7F1F76CA9E003AFDF2 /* DetailViewController.swift */; };
+		16DDAA821F76CA9E003AFDF2 /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDAA801F76CA9E003AFDF2 /* MyCustomTableViewCell.swift */; };
+		16DDAA841F76CAAA003AFDF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDAA831F76CAAA003AFDF2 /* ViewController.swift */; };
+		16DDAA861F76CAD4003AFDF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA851F76CAD4003AFDF2 /* Main.storyboard */; };
+		16DDAA8E1F76CAF3003AFDF2 /* Australia.png in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA881F76CAF3003AFDF2 /* Australia.png */; };
+		16DDAA8F1F76CAF3003AFDF2 /* Brazil.png in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA891F76CAF3003AFDF2 /* Brazil.png */; };
+		16DDAA901F76CAF3003AFDF2 /* Germany.png in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA8A1F76CAF3003AFDF2 /* Germany.png */; };
+		16DDAA911F76CAF3003AFDF2 /* Nepal.png in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA8B1F76CAF3003AFDF2 /* Nepal.png */; };
+		16DDAA921F76CAF3003AFDF2 /* South Africa.png in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA8C1F76CAF3003AFDF2 /* South Africa.png */; };
+		16DDAA931F76CAF3003AFDF2 /* USA.png in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA8D1F76CAF3003AFDF2 /* USA.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		16DDAA6A1F76CA8B003AFDF2 /* BasicTableViewDemoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicTableViewDemoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DDAA6D1F76CA8B003AFDF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		16DDAA6F1F76CA8B003AFDF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		16DDAA721F76CA8B003AFDF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16DDAA741F76CA8B003AFDF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16DDAA771F76CA8B003AFDF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16DDAA791F76CA8B003AFDF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DDAA7F1F76CA9E003AFDF2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		16DDAA801F76CA9E003AFDF2 /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
+		16DDAA831F76CAAA003AFDF2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16DDAA851F76CAD4003AFDF2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		16DDAA881F76CAF3003AFDF2 /* Australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Australia.png; sourceTree = "<group>"; };
+		16DDAA891F76CAF3003AFDF2 /* Brazil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brazil.png; sourceTree = "<group>"; };
+		16DDAA8A1F76CAF3003AFDF2 /* Germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Germany.png; sourceTree = "<group>"; };
+		16DDAA8B1F76CAF3003AFDF2 /* Nepal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nepal.png; sourceTree = "<group>"; };
+		16DDAA8C1F76CAF3003AFDF2 /* South Africa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "South Africa.png"; sourceTree = "<group>"; };
+		16DDAA8D1F76CAF3003AFDF2 /* USA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USA.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,30 @@
 		16DDAA6C1F76CA8B003AFDF2 /* BasicTableViewDemoExample */ = {
 			isa = PBXGroup;
 			children = (
+				16DDAA871F76CAF3003AFDF2 /* Nations */,
+				16DDAA851F76CAD4003AFDF2 /* Main.storyboard */,
 				16DDAA6D1F76CA8B003AFDF2 /* AppDelegate.swift */,
-				16DDAA6F1F76CA8B003AFDF2 /* ViewController.swift */,
-				16DDAA711F76CA8B003AFDF2 /* Main.storyboard */,
+				16DDAA831F76CAAA003AFDF2 /* ViewController.swift */,
+				16DDAA7F1F76CA9E003AFDF2 /* DetailViewController.swift */,
+				16DDAA801F76CA9E003AFDF2 /* MyCustomTableViewCell.swift */,
 				16DDAA741F76CA8B003AFDF2 /* Assets.xcassets */,
 				16DDAA761F76CA8B003AFDF2 /* LaunchScreen.storyboard */,
 				16DDAA791F76CA8B003AFDF2 /* Info.plist */,
 			);
 			path = BasicTableViewDemoExample;
+			sourceTree = "<group>";
+		};
+		16DDAA871F76CAF3003AFDF2 /* Nations */ = {
+			isa = PBXGroup;
+			children = (
+				16DDAA881F76CAF3003AFDF2 /* Australia.png */,
+				16DDAA891F76CAF3003AFDF2 /* Brazil.png */,
+				16DDAA8A1F76CAF3003AFDF2 /* Germany.png */,
+				16DDAA8B1F76CAF3003AFDF2 /* Nepal.png */,
+				16DDAA8C1F76CAF3003AFDF2 /* South Africa.png */,
+				16DDAA8D1F76CAF3003AFDF2 /* USA.png */,
+			);
+			path = Nations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +155,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16DDAA931F76CAF3003AFDF2 /* USA.png in Resources */,
+				16DDAA8F1F76CAF3003AFDF2 /* Brazil.png in Resources */,
+				16DDAA861F76CAD4003AFDF2 /* Main.storyboard in Resources */,
 				16DDAA781F76CA8B003AFDF2 /* LaunchScreen.storyboard in Resources */,
+				16DDAA8E1F76CAF3003AFDF2 /* Australia.png in Resources */,
+				16DDAA921F76CAF3003AFDF2 /* South Africa.png in Resources */,
 				16DDAA751F76CA8B003AFDF2 /* Assets.xcassets in Resources */,
-				16DDAA731F76CA8B003AFDF2 /* Main.storyboard in Resources */,
+				16DDAA901F76CAF3003AFDF2 /* Germany.png in Resources */,
+				16DDAA911F76CAF3003AFDF2 /* Nepal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +174,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16DDAA701F76CA8B003AFDF2 /* ViewController.swift in Sources */,
+				16DDAA811F76CA9E003AFDF2 /* DetailViewController.swift in Sources */,
+				16DDAA821F76CA9E003AFDF2 /* MyCustomTableViewCell.swift in Sources */,
+				16DDAA841F76CAAA003AFDF2 /* ViewController.swift in Sources */,
 				16DDAA6E1F76CA8B003AFDF2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +184,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		16DDAA711F76CA8B003AFDF2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				16DDAA721F76CA8B003AFDF2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		16DDAA761F76CA8B003AFDF2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
