@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16A7134C1F9322430081A536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A7134B1F93223E0081A536 /* Main.storyboard */; };
 		16DDAA6E1F76CA8B003AFDF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDAA6D1F76CA8B003AFDF2 /* AppDelegate.swift */; };
 		16DDAA751F76CA8B003AFDF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA741F76CA8B003AFDF2 /* Assets.xcassets */; };
 		16DDAA781F76CA8B003AFDF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA761F76CA8B003AFDF2 /* LaunchScreen.storyboard */; };
 		16DDAA811F76CA9E003AFDF2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDAA7F1F76CA9E003AFDF2 /* DetailViewController.swift */; };
 		16DDAA821F76CA9E003AFDF2 /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDAA801F76CA9E003AFDF2 /* MyCustomTableViewCell.swift */; };
 		16DDAA841F76CAAA003AFDF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DDAA831F76CAAA003AFDF2 /* ViewController.swift */; };
-		16DDAA861F76CAD4003AFDF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA851F76CAD4003AFDF2 /* Main.storyboard */; };
 		16DDAA8E1F76CAF3003AFDF2 /* Australia.png in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA881F76CAF3003AFDF2 /* Australia.png */; };
 		16DDAA8F1F76CAF3003AFDF2 /* Brazil.png in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA891F76CAF3003AFDF2 /* Brazil.png */; };
 		16DDAA901F76CAF3003AFDF2 /* Germany.png in Resources */ = {isa = PBXBuildFile; fileRef = 16DDAA8A1F76CAF3003AFDF2 /* Germany.png */; };
@@ -24,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16A7134B1F93223E0081A536 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		16DDAA6A1F76CA8B003AFDF2 /* BasicTableViewDemoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicTableViewDemoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DDAA6D1F76CA8B003AFDF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16DDAA741F76CA8B003AFDF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		16DDAA7F1F76CA9E003AFDF2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		16DDAA801F76CA9E003AFDF2 /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
 		16DDAA831F76CAAA003AFDF2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		16DDAA851F76CAD4003AFDF2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		16DDAA881F76CAF3003AFDF2 /* Australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Australia.png; sourceTree = "<group>"; };
 		16DDAA891F76CAF3003AFDF2 /* Brazil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brazil.png; sourceTree = "<group>"; };
 		16DDAA8A1F76CAF3003AFDF2 /* Germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Germany.png; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 			children = (
 				16F0F8B81F76CCF700D31463 /* UITableView Basics - Swift 3.key */,
 				16DDAA871F76CAF3003AFDF2 /* Nations */,
-				16DDAA851F76CAD4003AFDF2 /* Main.storyboard */,
 				16DDAA6D1F76CA8B003AFDF2 /* AppDelegate.swift */,
+				16A7134B1F93223E0081A536 /* Main.storyboard */,
 				16DDAA831F76CAAA003AFDF2 /* ViewController.swift */,
 				16DDAA7F1F76CA9E003AFDF2 /* DetailViewController.swift */,
 				16DDAA801F76CA9E003AFDF2 /* MyCustomTableViewCell.swift */,
@@ -126,12 +126,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Prakash Maharjan";
 				TargetAttributes = {
 					16DDAA691F76CA8B003AFDF2 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -159,8 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				16DDAA931F76CAF3003AFDF2 /* USA.png in Resources */,
+				16A7134C1F9322430081A536 /* Main.storyboard in Resources */,
 				16DDAA8F1F76CAF3003AFDF2 /* Brazil.png in Resources */,
-				16DDAA861F76CAD4003AFDF2 /* Main.storyboard in Resources */,
 				16DDAA781F76CA8B003AFDF2 /* LaunchScreen.storyboard in Resources */,
 				16DDAA8E1F76CAF3003AFDF2 /* Australia.png in Resources */,
 				16DDAA921F76CAF3003AFDF2 /* South Africa.png in Resources */,
@@ -209,7 +210,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -217,7 +220,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -240,12 +247,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -259,7 +267,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -267,7 +277,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -284,10 +298,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -296,11 +311,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BasicTableViewDemoExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prakash.BasicTableViewDemoExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -308,11 +327,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BasicTableViewDemoExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prakash.BasicTableViewDemoExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
