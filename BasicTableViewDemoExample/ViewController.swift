@@ -21,7 +21,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.countriesArray = ["USA", "Brazil", "Germany", "Nepal", "South Africa", "Australia"]
-        self.continentArray = ["North America", "South America", "Europe", "Nepal", "Africa", "Australia"]
+        self.continentArray = ["North America", "South America", "Europe", "Asia", "Africa", "Australia"]
         self.imagesArray = ["USA.png", "Brazil.png", "Germany.png", "Nepal.png", "South Africa.png", "Australia.png"]
     }
 
