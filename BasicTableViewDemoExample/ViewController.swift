@@ -15,8 +15,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var countriesArray = NSArray()
     var continentArray = NSArray()
     var imagesArray = NSArray()
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -61,13 +60,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         //myCustomCell.myCustomImageView.image = UIImage(named:"USA.png")
         
         myCustomCell.myCustomImageView.image = UIImage(named:(self.imagesArray.object(at: indexPath.row) as? String)!)
-        
         return myCustomCell
-        
-        
-        
     }
-    
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
@@ -77,13 +71,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         detailVC.subtitleText = self.continentArray.object(at: indexPath.row) as? String
         detailVC.imageName = self.imagesArray.object(at: indexPath.row) as? String
         self.navigationController?.pushViewController(detailVC, animated: true)
-   
-        
     }
-    
-  
-
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
